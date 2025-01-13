@@ -6,5 +6,7 @@ docker run -it   -v /root/.kube/config:/home/k8s/.kube/config:ro   -e KUBECONFIG
 inside of the container 
 
 sudo -i
+
 chmod 644 /home/k8s/.kube/config
+
 exit
